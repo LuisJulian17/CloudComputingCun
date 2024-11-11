@@ -5,7 +5,6 @@ Este proyecto configura y despliega una infraestructura básica en AWS utilizand
 ## Tabla de Contenidos
 - [Descripción General](#descripción-general)
 - [Características Principales](#características-principales)
-- [Estructura del Proyecto](#estructura-del-proyecto)
 - [Requisitos Previos](#requisitos-previos)
 - [Configuración del Proyecto](#configuración-del-proyecto)
 - [Uso](#uso)
@@ -19,19 +18,6 @@ Este repositorio contiene configuraciones de Terraform para construir una infrae
 - **Monitoreo y Alertas**: Se configura CloudWatch para monitorear el uso de CPU de las instancias y un tema de SNS que envía alertas por correo electrónico en caso de que el umbral definido se supere.
 - **Infraestructura como Código (IaC)**: Todo está gestionado con Terraform para asegurar consistencia, flexibilidad y facilidad de mantenimiento.
 
-## Estructura del Proyecto
-├── autoscaling.tf
-├── cloudwatch.tf 
-├── encryption.tf
-├── iam.tf 
-├── loadbalancer.tf
-├── main.tf 
-├── outputs.tf
-├── security_group.tf 
-├── sns.tf 
-├── variables.tf 
-├── .gitignore # Archivos y carpetas ignoradas en el repositorio 
-└── README.md # Documentación del proyecto
 
 
 ## Requisitos Previos
