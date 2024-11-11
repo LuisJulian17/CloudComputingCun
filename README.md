@@ -20,7 +20,18 @@ Este repositorio contiene configuraciones de Terraform para construir una infrae
 - **Infraestructura como Código (IaC)**: Todo está gestionado con Terraform para asegurar consistencia, flexibilidad y facilidad de mantenimiento.
 
 ## Estructura del Proyecto
-├── main.tf # Configuración principal de la infraestructura ├── variables.tf # Variables necesarias para la configuración ├── outputs.tf # Outputs del proyecto ├── provider.tf # Configuración del proveedor (AWS) ├── .gitignore # Archivos y carpetas ignoradas en el repositorio └── README.md # Documentación del proyecto
+├── autoscaling.tf
+├── cloudwatch.tf 
+├── encryption.tf
+├── iam.tf 
+├── loadbalancer.tf
+├── main.tf 
+├── outputs.tf
+├── security_group.tf 
+├── sns.tf 
+├── variables.tf 
+├── .gitignore # Archivos y carpetas ignoradas en el repositorio 
+└── README.md # Documentación del proyecto
 
 
 ## Requisitos Previos
